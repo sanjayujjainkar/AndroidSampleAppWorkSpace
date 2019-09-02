@@ -1,15 +1,14 @@
 package com.example.sampleapplication.pojo;
 
 import javax.inject.Inject;
-
 import dagger.Module;
 import dagger.Provides;
 
 @Module
 public class BraavosModule {
 
-    Cash cash;
-    Soldiers soldiers;
+    private Cash cash;
+    private Soldiers soldiers;
 
     @Inject
     public BraavosModule(Cash cash, Soldiers soldiers){

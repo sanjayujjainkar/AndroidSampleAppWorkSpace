@@ -8,7 +8,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 import com.example.sampleapplication.R;
 import com.example.sampleapplication.dependency.NetworkApi;
